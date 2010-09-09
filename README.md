@@ -1,4 +1,4 @@
-MTGoogleSitemapsPing:
+# MTGoogleSitemapsPing:
 
 MovableType plugin for automated update notification to the Google Sitemaps
 
@@ -6,6 +6,9 @@ MovableType SEO by anti-cheats! Google Sitemaps in, MovableType index template w
 Google Sitemaps is an updated site map that works to inform you.
 This guide is expected to be based on the latest Kurorarobotto sitemap.
 This time, to automate the update notification MovableType plug-in has been created.
+
+This Folk is Work only MT5. Under MT3 &amp; MT4, Use original Plugin by Piroli.
+http://www.magicvox.net/archive/2006/05201647/
 
 # Using MTGoogleSitemapsPing
 Let you create a SitemapTemplate.
@@ -38,20 +41,21 @@ You can specify the following parameters.
 
 Tag itself, this variable returns the result as a string of notification operation. There is no extra expenditures this string is usually comment out please. MTGoogleSitemapsPing string returned by the following variable tags.
 
-MTGoogleSitemapsPing error: <template> should be specified. MT Google Sitemapsping Error: SHOULD Be <template> specified.
+* MTGoogleSitemapsPing error: <template> should be specified. MT Google Sitemapsping Error: SHOULD Be <template> specified.
     specification template is required.
-MTGoogleSitemapsPing error: a template which named "XXX" is not found. MT Google Sitemapsping Error: a template which named "XXX" is Not found.
+* MTGoogleSitemapsPing error: a template which named "XXX" is not found. MT Google Sitemapsping Error: a template which named "XXX" is Not found.
     index template specified by the template is not found.
-MTGoogleSitemapsPing message: You need not to ping for "XXX" now. MT Google Sitemapsping message: You Need Not to ping for "XXX" Now.
+* MTGoogleSitemapsPing message: You need not to ping for "XXX" now. MT Google Sitemapsping message: You Need Not to ping for "XXX" Now.
     Period from the previous notification for a specified time has passed, and there is no need to notify.
-MTGoogleSitemapsPing message: Successfully pinged for "XXX" at YYY. MT Google Sitemapsping message: Successfully Pinged for "XXX" at YYY.
+* MTGoogleSitemapsPing message: Successfully pinged for "XXX" at YYY. MT Google Sitemapsping message: Successfully Pinged for "XXX" at YYY.
     Notification sent. 
 
 This along with Google Sitemaps server to the HTTP request result MovableType may be logged.
 
-MTGoogleSitemapsPing error: failed to ping. destination server returns; XXX MT Google Sitemapsping Error: failed to ping. Server returns destination; XXX
+* MTGoogleSitemapsPing error: failed to ping. destination server returns; XXX MT Google Sitemapsping Error: failed to ping. Server returns destination; XXX
     Google Sitemaps server error occurred while communicating with. 
-MTGoogle SitemapsPing error: failed to initialize LWP::UserAgent MT Google Sitemapsping Error: failed to Initialize LWP:: UserAgent
+* MTGoogle SitemapsPing error: failed to initialize LWP::UserAgent MT Google Sitemapsping Error: failed to Initialize LWP:: UserAgent
     Servr to LWP:: UserAgent Please make sure the module is correctly implemented. 
 
-This program is GPL License ( GNU General Public License; GNU General Public License text (English) ) can be freely distributed under the terms of 
+# License
+This program is GPL License ( GNU General Public License; ) can be freely distributed under the terms of.
